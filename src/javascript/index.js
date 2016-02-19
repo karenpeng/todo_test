@@ -1,7 +1,5 @@
+import React from 'react'
 import ReactDOM from 'react-dom'
 import List from './components/List'
-
-ReactDOM.render(
-  React.createElement(List, {name: "World"}),
-  document.getElementById('container')
-);
+console.log(List)
+ReactDOM.render(<List/>, document.getElementById('container'));
