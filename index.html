@@ -15,15 +15,6 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div>Try this in the console:</div>
-    <pre>
-      client.query(q.create(new o.Ref("databases"), q.quote({name: "my-test-db"}))).then(function(db) {
-        console.log("Created: ", db);
-        client.query(q.get(db.ref)).then(function(dbAgain) {
-          console.log("Got: ", dbAgain)
-        })
-      })
-    </pre>
     <div id="container"></div>
     <script type="text/javascript" src="build/javascript/build.js"></script>    
   </body>
